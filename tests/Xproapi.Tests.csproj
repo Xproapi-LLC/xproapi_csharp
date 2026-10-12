@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Offline tests as a plain console program, so no test framework is needed. Run them with "dotnet run" and the project option pointing at this folder. -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Xproapi.Tests</AssemblyName>
+    <RootNamespace>Xproapi.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\Xproapi.csproj" />
+  </ItemGroup>
+
+</Project>
